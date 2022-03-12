@@ -1,0 +1,103 @@
+<html lang="fr">
+
+<head>
+	<meta charset="utf-8">
+	<title>Mon book | Inscripion</title>
+<style>
+	#bar {
+		height: 100px;
+		background-color: #3c5a99;
+		color: #d9dfeb;
+		padding: 4px;
+	}
+
+	#btn_inscire {
+		background-color: #42b72a;
+		width: 100px;
+		text-align: center;
+		float: right;
+		padding: 4px;
+		border-radius: 4px;
+	}
+
+	#bar2 {
+		background-color: #fff;
+		width: 800px;
+		margin: auto;
+		margin-top: 50px;
+		text-align: center;
+		padding-top: 50px;
+		padding: 10px;
+		font-weight: bold;
+	}
+
+	#text {
+		height: 40px;
+		width: 300px;
+		border-radius: 4px;
+		padding: 4px;
+		font-size: 14px;
+		border: solid 1px #ccc;
+	}
+
+	#boutton {
+		height: 40px;
+		width: 300px;
+		background-color:  rgb(59, 89, 152);
+		color: white;
+		font-weight: bolder;
+		border: none;
+		border-radius: 4px;
+
+	}
+
+</style>
+</head>
+
+
+
+<body style="background-color: #e9ebee;font-family: tahoma;">
+
+	<div id="bar">
+
+		<div style="font-size: 40px;">
+			Monbook
+		</div> 
+
+		<div id="btn_inscire">
+			Se Connecter
+		</div>
+
+	</div>
+
+	<div id="bar2">
+		S'inscrire à Monbook <br><br>
+
+		<form method="post" action="inscription.php">
+			
+			<input name="prenom" type="text" id="text" placeholder="Entrez votre Prénom"> <br><br>
+			<input name="nom" type="text" id="text" placeholder="Entrez votre Nom"> <br><br>
+
+			<span style="font-weight: normal;">Genre :</span><br>
+			<select id="text" name="genre">
+				<option></option>
+				<option>Homme</option>
+				<option>Femme</option>
+			</select>
+			<br><br>
+
+			<input name="email" type="text" id="text" placeholder="Entrez votre Email"> <br><br>
+
+			<input name="password" type="password" id="text" placeholder="Mot de Passe"> <br><br>
+			<input name="password2" type="password" id="text" placeholder="Confimer Mot de Passe"> <br><br>
+
+			<input type="submit" id="boutton" value="S'inscrire">
+			<br><br><br>
+
+		</form>
+
+	</div> 
+	
+</body>
+
+</html>

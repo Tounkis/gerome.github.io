@@ -1,0 +1,13 @@
+h1 {
+	color: red;
+}
+
+.tete {
+	text-align: center;
+}
+
+#par {
+	background-color: blue;
+	color: white;
+	font-size: 1.5rem;
+}
